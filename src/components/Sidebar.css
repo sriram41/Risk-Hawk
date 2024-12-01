@@ -1,0 +1,122 @@
+.sidebar {
+    width: 250px;
+    background-color: #0D1424;
+    color: #fff;
+    height: auto;
+    padding: 20px;
+    padding-right: 0px;
+  }
+  
+  .logo {
+    
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 208px;
+    height: 54px;
+  }
+  
+  .logo h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #4a90e2;
+  }
+  
+  .logo p {
+    font-size: 12px;
+    color: #f4a261;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-menu li:hover {
+    background-color: #3e4c6d;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  
+  .audit-icon::before {
+    content: "🔍"; /* Replace with your own icons */
+  }
+  
+  .testing-icon::before {
+    content: "✔️";
+  }
+  
+  .intract-icon::before {
+    content: "🔗";
+  }
+  
+  .queue-icon::before {
+    content: "👤";
+  }
+  
+  .workflow-icon::before {
+    content: "🔧";
+  }
+  
+  .admin-icon::before {
+    content: "⚙️";
+  }
+  
+  .asset-icon::before {
+    content: "📦";
+  }
+  
+  .parent-icon::before {
+    content: "👪";
+  }
+  
+  .option-one-icon::before {
+    content: "1️⃣";
+  }
+  
+  .option-two-icon::before {
+    content: "2️⃣";
+  }
+  
+  .accessories-icon::before {
+    content: "🔧";
+  }
+  
+  .internal-audit-icon::before {
+    content: "📝";
+  }
+  
+  .decorating-icon::before {
+    content: "✨";
+  }
+  
+  .presenting-icon::before {
+    content: "🎁";
+  }
+  
+
+  .sidebar-menu li img {
+    width: 19px !important;
+    margin-right: 20px;
+  }
+
+
+  .widget-1-3041 {
+    width: 19px !important;
+  position: relative;
+  top: 5px;
+  }

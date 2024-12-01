@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header-left .header-title {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .role-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .process-owner {
+    background-color: #ffd700;
+    color: #000;
+  }
+  
+  .admin {
+    background-color: #ff69b4;
+    color: #fff;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .logout-button {
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .settings-image {
+    width: 32px;
+   }
+  
+
+   .nav-block-pic-comp-83-142 {
+    display: flex;
+   }
+
+
+   .logouticon-image {
+    width: 34px;
+    height: 37px;
+    margin-top: 7px;
+   }
+
+   .logout-button {
+    margin-top: 2px;
+    color: #676B89;
+   }

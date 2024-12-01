@@ -1,0 +1,12 @@
+.total-container-1 {
+    width:100%;
+    display: flex !important;
+}
+
+.block-1-sidebar {
+    max-width: 300px;
+}
+
+.block-2-remaining {
+    width:100%
+}

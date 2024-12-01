@@ -1,0 +1,134 @@
+
+.app-container {
+    display: flex;
+  
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 20px;
+    background-color: #f4f4f9;
+    gap: 13px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar1 {
+    background-color: #fff;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .profile-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-tab {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .profile-tab.active {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .conversation-section {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .message.received {
+    text-align: left;
+  }
+  
+  .message.sent {
+    text-align: right;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+  
+  .message-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .message-input button {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   */

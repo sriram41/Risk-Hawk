@@ -1,0 +1,84 @@
+.profile-list {
+ 
+    background-color: #fff;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+   
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .profile-tab {
+    display: flex;
+    align-items: center;
+    padding: 10px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .profile-tab.active {
+	border: 2px solid #4a90e2;
+	border-bottom: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+  
+  .profile-icon {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-size: 13px !important;
+  }
+  
+  /* Messaging Button Container */
+.messaging-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 16px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: 500; /* Slightly bold font */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 180px; /* Fixed button width */
+    height: 50px; /* Fixed button height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  /* Icon inside the button */
+  .messaging-button .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent circle */
+    width: 32px; /* Icon container size */
+    height: 32px;
+    border-radius: 50%; /* Circular */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  /* Arrow icon styling */
+  .messaging-button .arrow {
+    font-size: 16px; /* Arrow size */
+    font-weight: bold;
+  }
+  
+  /* Hover Effect */
+  .messaging-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,130 @@
+/* App.css */
+
+.photo-1054 {
+	top: 3px;
+	position: relative;
+}
+
+  
+  .ask-catura,
+  .action-launcher,
+  .case-favorite {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .action-launcher {
+    width: 91%;
+  }
+  
+  .ask-catura .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ask-catura .header h2 {
+    font-size: 18px;
+  }
+  
+  .ask-catura .platforms span {
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .greeting-template {
+    margin-top: 20px;
+    background-color: #8A8CA338;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .greeting-template h3 {
+    color: #ffffff;
+  }
+  
+  .template-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  
+  .template-buttons button {
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message-box {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .message-box input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .message-box .send-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .action-launcher h3,
+  .case-favorite h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .action-launcher input {
+    width: 90.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .action-launcher .actions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .action-launcher .actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .case-favorite .favorite-item {
+    padding: 10px;
+    background-color: #f4f6fa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .case-favorite .favorite-item span {
+    margin-right: 10px;
+  }
+  

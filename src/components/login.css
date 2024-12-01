@@ -1,0 +1,78 @@
+/* General body styling */
+.total-login-block-1041 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background color */
+   
+  }
+  
+  /* Login form container */
+  .section-login-2-054 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 47px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 33%; /* Fixed width */
+  }
+  
+  /* Login heading */
+  .section-login-2-054 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: -5px;
+  }
+  
+  /* Input fields styling */
+  .total-login-block-1041 input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Login button */
+  .total-login-block-1041 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0F8BFD;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .total-login-block-1041 button:hover {
+    background-color: #218838;
+  }
+  
+  /* Signup link */
+  .login-container .signup {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .total-login-block-1041 .signup a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  .total-login-block-1041 .signup a:hover {
+    text-decoration: underline;
+  }
+  
